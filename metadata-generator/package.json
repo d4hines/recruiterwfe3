@@ -1,0 +1,38 @@
+{
+  "name": "aws-nodejs-typescript",
+  "version": "1.0.0",
+  "description": "Serverless webpack example using Typescript",
+  "main": "handler.js",
+  "scripts": {
+    "start": "ts-node src/graphql.ts",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.0",
+    "@types/mocha": "^2.2.46",
+    "@types/node": "^8.0.57",
+    "@types/sinon": "^4.1.2",
+    "@types/sinon-chai": "^2.7.29",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "sinon": "^4.1.4",
+    "sinon-chai": "^2.14.0",
+    "ts-loader": "^2.3.7",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0"
+  },
+  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+  "license": "MIT",
+  "dependencies": {
+    "@types/json-schema": "^7.0.1",
+    "@types/request": "^2.47.1",
+    "@types/request-promise-native": "^1.0.15",
+    "class-transformer": "^0.1.9",
+    "json-schema": "^0.2.3",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "tslint-config-airbnb": "^5.4.2"
+  }
+}
